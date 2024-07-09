@@ -1,0 +1,85 @@
+
+*{
+    margin: 0; 
+    padding: 0 ; 
+}
+
+.btn{
+    padding: 21px 32px 21px 32px; 
+    color: rgb(255,255, 255) ; 
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    background-color: rgb(82, 195, 3);
+    border: none;
+
+}
+
+  .btn-container{
+    text-align: center;
+ }
+
+#hero{
+    height: 894px;
+    background-image:linear-gradient(
+        0deg,
+        rgb(16,16,16) -19.5%,
+        rgba(16,16,16,0) 100%
+    ) , 
+    url('../assets/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size:cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .hero-content{
+    width: 890px ;
+    
+}
+
+#hero .hero-content .subtitle{
+    
+     color: rgb(255,255, 255) ; 
+     font-family: Work Sans;
+     font-size: 32px; 
+     font-weight: 600;
+     line-height: 38px;
+     letter-spacing: 0%;
+     text-align: center;
+     opacity: 0.8;
+     margin-bottom: 10px;
+}
+  
+
+#hero .hero-content .title{
+    color: rgb(255,255, 255) ;
+  font-family: Work Sans;
+  font-weight: 700; 
+  font-size: 64px;
+  row-height: 80px; 
+  letter-spacing:0% ;
+  text-align: center;
+  margin-bottom: 14px;
+    
+
+}
+
+#hero .hero-content .descrip{
+
+    color: rgb(255,255, 255) ; 
+    font-family: Work Sans;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 32px;
+
+
+}
